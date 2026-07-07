@@ -1,0 +1,17 @@
+name: Question
+description: Ask a usage, integration, or project question.
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: What would you like to know?
+      description: Ask your question with enough context.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Context
+      description: Include environment, code snippets, logs, or links if relevant.
