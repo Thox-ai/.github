@@ -11,7 +11,7 @@
 |---|---|---|---|---|
 
 <div align="center">
-<a href="https://www.kickstarter.com/projects/thox/four-devices-one-private-ai-ecosystem-thoxai?ref=thoxsite"><img src="https://huggingface.co/spaces/Thox-ai/README/resolve/main/back-thox-on-kickstarter.jpg" alt="Back THOX on Kickstarter" width="520"></a>
+<a href="https://www.kickstarter.com/projects/thox/four-devices-one-private-ai-ecosystem-thoxai?ref=thoxsite"><img src="https://huggingface.co/spaces/Thox-ai/README/resolve/main/back-thox-on-kickstarter.png" alt="Back THOX on Kickstarter" width="520"></a>
 </div>
 
 > **Your AI. Your Data. Your Rules.™**
