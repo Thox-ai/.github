@@ -4,10 +4,10 @@
 
 **Private, local-first AI: four devices, the models that run on them, and the mesh that connects them.**
 
-**99 public models on Hugging Face · 77 models on Ollama · 87-entry Model Factory catalog**
+**109 public models on Hugging Face · 89 models on Ollama · 93-entry Model Factory catalog**
 </div>
 
-| [![Website](https://img.shields.io/badge/Website-thox.ai-05A451)](https://www.thox.ai/) | [![Model Factory](https://img.shields.io/badge/Model_Factory-87_models-05A451)](https://www.thox.ai/models) | [![Hugging Face](https://img.shields.io/badge/Hugging_Face-99_public_models-05A451)](https://huggingface.co/Thox-ai) | [![Ollama](https://img.shields.io/badge/Ollama-77_models-05A451)](https://ollama.com/Thox-ai) | [![Kickstarter](https://img.shields.io/badge/Kickstarter-Live_now-05A451)](https://www.kickstarter.com/projects/thox/four-devices-one-private-ai-ecosystem-thoxai?ref=thoxsite) |
+| [![Website](https://img.shields.io/badge/Website-thox.ai-05A451)](https://www.thox.ai/) | [![Model Factory](https://img.shields.io/badge/Model_Factory-93_models-05A451)](https://www.thox.ai/models) | [![Hugging Face](https://img.shields.io/badge/Hugging_Face-109_public_models-05A451)](https://huggingface.co/Thox-ai) | [![Ollama](https://img.shields.io/badge/Ollama-89_models-05A451)](https://ollama.com/Thox-ai) | [![Kickstarter](https://img.shields.io/badge/Kickstarter-Live_now-05A451)](https://www.kickstarter.com/projects/thox/four-devices-one-private-ai-ecosystem-thoxai?ref=thoxsite) |
 |---|---|---|---|---|
 
 <div align="center">
@@ -22,7 +22,7 @@ Explore ThoxKey, ThoxAir, ThoxMini and ThoxClip, and help bring the THOX persona
 
 **[Back THOX.ai on Kickstarter](https://www.kickstarter.com/projects/thox/four-devices-one-private-ai-ecosystem-thoxai?ref=thoxsite)**
 
-Campaign live now through November 26, 2026 · Super Early Bird pricing through Monday, November 2 at 11:59 PM CT · Delivery February to April 2027
+Campaign live now through November 26, 2026 · Super Early Bird ends Monday, November 2, 2026 at 11:59 PM CT · Kits $189 / $419 / $699 · Delivery February to April 2027
 
 Your AI. Your Data. Your Rules.™
 
@@ -62,7 +62,7 @@ ollama run Thox-ai/thoxclip-qwen3-0.6b
 
 **[Open the THOX Model Factory →](https://www.thox.ai/models)**
 
-Pick your machine or THOX device, filter by memory and workload, and compare the evidence on each card: measured throughput, footprint, grounding and trap results, and an honest statement of what THOX did and did not do. The catalog carries 87 entries, 78 of them published models, and every published model is on both [Hugging Face](https://huggingface.co/Thox-ai) and [Ollama](https://ollama.com/Thox-ai).
+Pick your machine or THOX device, filter by memory and workload, and compare the evidence on each card: measured throughput, footprint, grounding and trap results, and an honest statement of what THOX did and did not do. The catalog (revision 2026-11-01.10) carries 93 entries, 89 of them published models, and every published model is on both [Hugging Face](https://huggingface.co/Thox-ai) and [Ollama](https://ollama.com/Thox-ai).
 
 Browse by category on Hugging Face: [Flagship & Edge Device Models](https://huggingface.co/collections/Thox-ai/thox-flagship-and-edge-device-models-6ae751712ad8f8bca6f16dd8) · [MeshStack & MeshMind](https://huggingface.co/collections/Thox-ai/thox-meshstack-and-meshmind-models-6ae7517d9b60e7b122505d79) · [Open & Pro](https://huggingface.co/collections/Thox-ai/thox-open-and-pro-laptop-and-desktop-models-6ae7518780732cb99b4cf1ce) · [Agent & Routing](https://huggingface.co/collections/Thox-ai/thox-agent-and-routing-models-6ae7519b9b60e7b122506149) · [Code Models](https://huggingface.co/collections/Thox-ai/thox-code-models-6ae7518c544bc6b0fd740cd4) · [DigitalHumans & Personas](https://huggingface.co/collections/Thox-ai/thox-digitalhumans-and-persona-models-6ae751922e624a487c6fecb9) · [Research & From-Scratch](https://huggingface.co/collections/Thox-ai/thox-research-and-from-scratch-models-6ae751ac6a7f2517f6072f69)
 
@@ -79,6 +79,60 @@ THOX-trained models for ThoxOS kernel and operating-system work, released as ope
 ```bash
 ollama run Thox-ai/thoxos-kernel-27b
 ollama run Thox-ai/thoxos-kernel-0.8b
+```
+
+The ThoxOS research draft behind this family is published on Zenodo: [doi.org/10.5281/zenodo.23876230](https://doi.org/10.5281/zenodo.23876230).
+
+## New: ten THOX-configured models
+
+Ten models published November 2, 2026, THOX-configured on Qwen3 bases (configured, not THOX-trained; each card states exactly what THOX did). Every one passed the factory checks, declined the fabrication trap, and was scored on Knowledge Pack grounding. The 4B builds measure about 15.2 tok/s at a 3.89 GB footprint; the 8B builds about 8.6 tok/s at 6.68 GB.
+
+**Work**
+
+| Model | Base | Grounding |
+| --- | --- | --- |
+| [ThoxWork-Office-4B](https://huggingface.co/Thox-ai/ThoxWork-Office-4B) | Qwen3-4B | 7/8 |
+| [ThoxWork-Mind-4B](https://huggingface.co/Thox-ai/ThoxWork-Mind-4B) | Qwen3-4B | 8/8 |
+| [ThoxWork-Analyst-8B](https://huggingface.co/Thox-ai/ThoxWork-Analyst-8B) | Qwen3-8B | 8/8 |
+| [ThoxWork-Agent-8B](https://huggingface.co/Thox-ai/ThoxWork-Agent-8B) | Qwen3-8B | 8/8 |
+
+**iOS & device**
+
+| Model | Base | Grounding |
+| --- | --- | --- |
+| [ThoxIOS-Open-4B](https://huggingface.co/Thox-ai/ThoxIOS-Open-4B) | Qwen3-4B | 8/8 |
+| [ThoxIOS-Mesh-8B](https://huggingface.co/Thox-ai/ThoxIOS-Mesh-8B) | Qwen3-8B | 7/8 |
+
+**Edge & device agents**
+
+| Model | Base | Grounding |
+| --- | --- | --- |
+| [ThoxEdge-4B](https://huggingface.co/Thox-ai/ThoxEdge-4B) | Qwen3-4B | 8/8 |
+| [ThoxClip-Agent-4B](https://huggingface.co/Thox-ai/ThoxClip-Agent-4B) | Qwen3-4B | 8/8 |
+
+**MeshStack**
+
+| Model | Base | Grounding |
+| --- | --- | --- |
+| [ThoxMeshGroup-Federated-8B](https://huggingface.co/Thox-ai/ThoxMeshGroup-Federated-8B) | Qwen3-8B | 8/8 |
+
+**Agent**
+
+| Model | Base | Grounding |
+| --- | --- | --- |
+| [ThoxAgent-Core-4B](https://huggingface.co/Thox-ai/ThoxAgent-Core-4B) | Qwen3-4B | 8/8 |
+
+```bash
+ollama run Thox-ai/thoxwork-office-4b
+ollama run Thox-ai/thoxwork-mind-4b
+ollama run Thox-ai/thoxwork-analyst-8b
+ollama run Thox-ai/thoxwork-agent-8b
+ollama run Thox-ai/thoxios-open-4b
+ollama run Thox-ai/thoxios-mesh-8b
+ollama run Thox-ai/thoxedge-4b
+ollama run Thox-ai/thoxclip-agent-4b
+ollama run Thox-ai/thoxmeshgroup-federated-8b
+ollama run Thox-ai/thoxagent-core-4b
 ```
 
 ## The devices
