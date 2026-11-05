@@ -22,7 +22,7 @@ Explore ThoxKey, ThoxAir, ThoxMini and ThoxClip, and help bring the THOX persona
 
 **[Back THOX.ai on Kickstarter](https://www.kickstarter.com/projects/thox/four-devices-one-private-ai-ecosystem-thoxai?ref=thoxsite)**
 
-Campaign live now through November 26, 2026 · Super Early Bird ends Monday, November 2, 2026 at 11:59 PM CT · Kits $189 / $419 / $699 · Delivery February to April 2027
+Campaign live now through November 26, 2026 · Early Bird pricing in effect · Kits $189 / $419 / $699 · Delivery February to April 2027
 
 Your AI. Your Data. Your Rules.™
 
