@@ -2,7 +2,6 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![THOX.ai](https://img.shields.io/badge/THOX.ai-LLC-red.svg)
-![CI](https://github.com/Thox-ai/.github/actions/workflows/ci.yml/badge.svg)
 ---
 
 ## Legal
