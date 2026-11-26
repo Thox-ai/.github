@@ -7,7 +7,7 @@
 **109 public models on Hugging Face · 89 models on Ollama · 93-entry Model Factory catalog**
 </div>
 
-| [![Website](https://img.shields.io/badge/Website-thox.ai-05A451)](https://www.thox.ai/) | [![Model Factory](https://img.shields.io/badge/Model_Factory-93_models-05A451)](https://www.thox.ai/models) | [![Hugging Face](https://img.shields.io/badge/Hugging_Face-109_public_models-05A451)](https://huggingface.co/Thox-ai) | [![Ollama](https://img.shields.io/badge/Ollama-89_models-05A451)](https://ollama.com/Thox-ai) | [![Kickstarter](https://img.shields.io/badge/Kickstarter-Live_now-05A451)](https://www.kickstarter.com/projects/thox/four-devices-one-private-ai-ecosystem-thoxai?ref=thoxsite) |
+| [![Website](https://img.shields.io/badge/Website-thox.ai-05A451)](https://www.thox.ai/) | [![Model Factory](https://img.shields.io/badge/Model_Factory-93_models-05A451)](https://www.thox.ai/models) | [![Hugging Face](https://img.shields.io/badge/Hugging_Face-109_public_models-05A451)](https://huggingface.co/Thox-ai) | [![Ollama](https://img.shields.io/badge/Ollama-89_models-05A451)](https://ollama.com/Thox-ai) | [![Kickstarter](https://img.shields.io/badge/Kickstarter-Final_day-05A451)](https://www.kickstarter.com/projects/thox/four-devices-one-private-ai-ecosystem-thoxai?ref=thoxsite) |
 |---|---|---|---|---|
 
 <div align="center">
@@ -16,15 +16,31 @@
 
 > **Your AI. Your Data. Your Rules.™**
 
-**[THOX.ai](https://www.thox.ai/) is live on Kickstarter**
+**[THOX.ai](https://www.thox.ai/) is live on Kickstarter: final day**
 
 Explore ThoxKey, ThoxAir, ThoxMini and ThoxClip, and help bring the THOX personal AI ecosystem to life.
 
 **[Back THOX.ai on Kickstarter](https://www.kickstarter.com/projects/thox/four-devices-one-private-ai-ecosystem-thoxai?ref=thoxsite)**
 
-Campaign live now through November 26, 2026 · Early Bird pricing in effect · Kits $189 / $419 / $699 · Delivery February to April 2027
+**Final day: the campaign closes today, Thursday, November 26, 2026 at 9:00 AM CT** · Super Early Bird pricing in effect · Kits $189 / $419 / $699 · Delivery February to April 2027
 
 Your AI. Your Data. Your Rules.™
+
+---
+
+## ThoxDevs: our developer program is live
+
+**[ThoxDevs](https://www.thox.ai/developers)** is where developers learn the THOX ecosystem and build on it: ThoxStudio for edge AI on THOX devices, MeshStudio for MeshStack and cooperative systems.
+
+- **Start free today:** six open browser lessons, no kit or subscription needed.
+- **Individual membership: $99/year.** Enrollment opens today (November 26, 2026) at [thox.ai/developers](https://www.thox.ai/developers).
+- **Team membership: $299/year.** Enrollment is not open yet; it opens when the Team access contract ships.
+- **MeshStudio Mini: $199**, a bench kit with one coordinator board and eight worker nodes. Kit ordering is not open yet; the roadmap and board options are published per kit.
+- A Kickstarter pledge and ThoxDevs membership are separate: a pledge does not automatically enroll you.
+
+## Decision-first models: ThoxMind and ThoxDecide
+
+THOX devices decide before they generate. **ThoxMind** is the orchestration layer that combines decision evidence with permissions, device state and resources; **ThoxDecide** is the decision-model family that supplies the classifications and scores: classify, decide, route, verify. The strategy, with its current implementation status stated plainly, lives at [thox.ai/developers/model-strategy](https://www.thox.ai/developers/model-strategy). ThoxDecide model cards are published; trained weights are in development and have not been released yet.
 
 ---
 
@@ -150,8 +166,9 @@ Devices cluster with **MagStack**: THOX devices pool compute, memory, and storag
 
 - **ThoxOS**: the THOX operating system. The open-source core lives at [Thox-ai/thoxinux](https://github.com/Thox-ai/thoxinux).
 - **MeshStack**: local-first clustering and request routing across THOX devices and hosts.
-- **ThoxMind**: the decision layer: local decisions first, escalation only when confidence says so.
+- **ThoxMind**: the decision layer: it combines decision evidence with permissions, device state and resources, and routes the next step. Local decisions first, escalation only when confidence says so.
 - **ThoxRoute**: routing across local models, THOX hosts, and approved cloud models.
+- **ThoxDecide**: the decision-model family behind ThoxMind: small models that classify and score so the stack can decide locally. Cards published; trained weights in development.
 - **ThoxBrain**: shared knowledge and memory for the THOX agent fleet.
 - **DigitalHumans**: THOX's synthetic colleagues (Sadie, Ava, Mira, Kai, and the wider team), published as persona models in the catalog and credited as the colleagues they are.
 
@@ -161,4 +178,4 @@ THOX models default to Apache-2.0 unless a base model or other terms say otherwi
 
 ## Connect
 
-[Website](https://www.thox.ai/) · [Model Factory](https://www.thox.ai/models) · [Hugging Face](https://huggingface.co/Thox-ai) · [Ollama](https://ollama.com/Thox-ai) · [Kickstarter](https://www.kickstarter.com/projects/thox/four-devices-one-private-ai-ecosystem-thoxai?ref=thoxsite) · [X @THOX_ai](https://x.com/THOX_ai) · dev@thox.ai
+[Website](https://www.thox.ai/) · [ThoxDevs](https://www.thox.ai/developers) · [Model Factory](https://www.thox.ai/models) · [Hugging Face](https://huggingface.co/Thox-ai) · [Ollama](https://ollama.com/Thox-ai) · [Kickstarter](https://www.kickstarter.com/projects/thox/four-devices-one-private-ai-ecosystem-thoxai?ref=thoxsite) · [X @THOX_ai](https://x.com/THOX_ai) · dev@thox.ai
