@@ -34,7 +34,7 @@ Your AI. Your Data. Your Rules.™
 
 - **Start free today:** six open browser lessons, no kit or subscription needed.
 - **[ThoxDevs Learn](https://www.thox.ai/developers/learn):** eight learning paths with Rust at the core, two authored source labs and the THOX DigitalHuman faculty. Download the [Rust source lab](https://www.thox.ai/developers/learn/rust-runtime-policy.zip): a broken starter, a worked reference and the checks to prove your fix.
-- **Individual membership: $99/year.** Enrollment opens today (November 26, 2026) at [thox.ai/developers](https://www.thox.ai/developers).
+- **Individual membership: $99/year.** Enrollment is open now (opened November 26, 2026) at [thox.ai/developers](https://www.thox.ai/developers).
 - **Team membership: $299/year.** Enrollment is not open yet; it opens when the Team access contract ships.
 - **MeshStudio Mini: $199**, a bench kit with one coordinator board and eight worker nodes. Kit ordering is not open yet; the roadmap and board options are published per kit.
 - **[Eight development kits](https://www.thox.ai/developers/kits)** for ThoxStudio and MeshStudio, each with board options. Estimated member prices from $199; membership does not reserve hardware.
